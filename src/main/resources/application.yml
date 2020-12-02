@@ -1,0 +1,30 @@
+server:
+  port: 8081
+spring:
+  profiles:
+    active: dev
+debug: true
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+---
+server:
+  port: 8083
+spring:
+  profiles: prod
+
+
+#person:
+#  name: 唐增平
+#  age: 18
+#  boss: false
+#  birth: 2017/12/12
+#  maps: {k1: v1,k2: v2}
+#  lists:
+#    - lisi
+#    - zhaoliu
+#  dog:
+#    name: 小虎
+#    age: 2
